@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+h2{
+    font-weight: normal;
+}
+
+form{
+    margin-top: 40px;
+}
+input, button{
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button{
+    background-color:rgb(126, 188, 65);
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.msg-sucesso{
+    display: none;
+}
